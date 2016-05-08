@@ -2,6 +2,39 @@ h1 {
     text-align: center;
     color: slategray;
 }
+ul {
+    list-style-type: none;
+}
+li{
+
+}
+a:link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    display: block;
+    width: 70%;
+    height:50px;
+    line-height: 50px;
+    background-color: lightyellow;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+a:visited {
+    text-decoration: none;
+    color: 	#404040;
+    font-size: 18px;
+}
+
+a:hover{
+    font-size: 20px;
+    width: 75%;
+    color: 	#200000 ;
+    background-color: FFFF66;
+}
+
+
 
 table {
     border-collapse: collapse;
@@ -31,17 +64,22 @@ td:nth-child(2) {
 td:last-child {
     text-align: right;
 }
-
+tr:nth-child(2),
+tr:nth-child(4),
+tr:nth-child(6),
+tr:nth-child(8),
+tr:nth-child(10){
+    background-color: lightyellow;}
 .content {
     position: relative;
     float: right;
-    width: 85%
+    width: 85%;
 }
 .menu {
     position: relative;
     float: left;
     width: 15%;
-    height: 10000px;
+    height: 1800px;
     background-color: aquamarine;
 }
 .header{
@@ -57,4 +95,7 @@ td:last-child {
 }
 .content h3{
     text-align: center;
+}
+.content .text {
+    text-align: left;
 }
