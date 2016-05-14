@@ -107,3 +107,9 @@ tr:nth-child(2n) {
 .content .text {
     text-align: left;
 }
+.table_transcript td {
+    text-align: center;
+}
+.table_transcript td:last-child {
+    text-align: right;
+}
